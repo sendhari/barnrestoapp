@@ -1,12 +1,12 @@
 const CACHE_NAME = 'bar-resto-v1';
 const urlsToCache = [
-  '/',
-  '/manifest.json',
-  '/_next/static/',
-  '/icon-192x192.png',
-  '/icon-512x512.png',
-  '/screenshot-wide.png',
-  '/screenshot-mobile.png'
+  '/barnrestoapp/',
+  '/barnrestoapp/manifest.json',
+  '/barnrestoapp/_next/static/',
+  '/barnrestoapp/icon-192x192.png',
+  '/barnrestoapp/icon-512x512.png',
+  '/barnrestoapp/screenshot-wide.png',
+  '/barnrestoapp/screenshot-mobile.png'
 ];
 
 self.addEventListener('install', (event) => {

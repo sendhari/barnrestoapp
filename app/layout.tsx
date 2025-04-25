@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/barnrestoapp/manifest.json" />
         <meta name="theme-color" content="#312e81" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -28,7 +28,7 @@ export default function RootLayout({
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function() {
                   console.log('Attempting to register service worker...');
-                  navigator.serviceWorker.register('/sw.js')
+                  navigator.serviceWorker.register('/barnrestoapp/sw.js')
                     .then(function(registration) {
                       console.log('ServiceWorker registration successful:', registration);
                     })
