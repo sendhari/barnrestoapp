@@ -1,5 +1,7 @@
-name: Deploy Next.js site to Pages
+# The name field should be properly formatted
+name: "Deploy Next.js site to Pages"
 
+on:
   push:
     branches: ["main"]
   workflow_dispatch:
